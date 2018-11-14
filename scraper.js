@@ -75,7 +75,7 @@ function run(db) {
     }
 
 
-    var scrape = async function() {
+    async function scrape() {
         while (pages.length > 0) {
             var page = pages.pop();
 
